@@ -49,199 +49,200 @@
       <p>Dissident Whispers is the first issue of RPG adventures from the Whisper Collective. An anthology of 58 original RPG adventures made by a diverse, international collective of creators in support of the Black Lives Matter movement. All proceeds go towards bail funds.</p>
     </div>
 
-    <!-- SHOPIFY -->
-    <div id='product-component-1592236163852' class="shopify"></div>
-    <script type="text/javascript">
-    /*<![CDATA[*/
-    (function () {
-      var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-      if (window.ShopifyBuy) {
-        if (window.ShopifyBuy.UI) {
-          ShopifyBuyInit();
+    <div class="purchase">
+      <h3>—Buy Now:</h3>
+      <p>EU physical shipping coming later today.</p>
+
+      <!-- SHOPIFY -->
+      <div id='product-component-1592236163852' class="shopify"></div>
+      <script type="text/javascript">
+      /*<![CDATA[*/
+      (function () {
+        var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+        if (window.ShopifyBuy) {
+          if (window.ShopifyBuy.UI) {
+            ShopifyBuyInit();
+          } else {
+            loadScript();
+          }
         } else {
           loadScript();
         }
-      } else {
-        loadScript();
-      }
-      function loadScript() {
-        var script = document.createElement('script');
-        script.async = true;
-        script.src = scriptURL;
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-        script.onload = ShopifyBuyInit;
-      }
-      function ShopifyBuyInit() {
-        var client = ShopifyBuy.buildClient({
-          domain: 'tuesday-knight-games.myshopify.com',
-          storefrontAccessToken: '51116ccb10e015d7ec184c666cadb5af',
-        });
-        ShopifyBuy.UI.onReady(client).then(function (ui) {
-          ui.createComponent('product', {
-            id: '4659386908761',
-            node: document.getElementById('product-component-1592236163852'),
-            moneyFormat: '%24%7B%7Bamount%7D%7D',
-            options: {
-      "product": {
-        "styles": {
-          "product": {
-            "@media (min-width: 601px)": {
-              "max-width": "calc(25% - 20px)",
-              "margin-left": "20px",
-              "margin-bottom": "50px"
-            }
-          },
-          "title": {
-            "font-family": "Montserrat, sans-serif",
-            "color": "#fdfdfd"
-          },
-          "button": {
-            "font-family": "Montserrat, sans-serif",
-            "font-weight": "bold",
-            "color": "#000",
-            ":hover": {
-              "background-color": "#e5da00"
-            },
-            "background-color": "#fef200",
-            ":focus": {
-              "background-color": "#e5da00"
-            }
-          },
-          "price": {
-            "font-family": "Montserrat, sans-serif",
-            "font-weight": "bold",
-            "color": "#ffffff"
-          },
-          "compareAt": {
-            "font-family": "Montserrat, sans-serif",
-            "font-weight": "bold",
-            "color": "#ffffff"
-          },
-          "unitPrice": {
-            "font-family": "Montserrat, sans-serif",
-            "font-weight": "bold",
-            "color": "#ffffff"
-          }
-        },
-        "buttonDestination": "checkout",
-        "width": "580px",
-        "text": {
-          "button": "Buy now"
-        },
-        "googleFonts": [
-          "Montserrat"
-        ]
-      },
-      "productSet": {
-        "styles": {
-          "products": {
-            "@media (min-width: 601px)": {
-              "margin-left": "-20px"
-            }
-          }
+        function loadScript() {
+          var script = document.createElement('script');
+          script.async = true;
+          script.src = scriptURL;
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+          script.onload = ShopifyBuyInit;
         }
-      },
-      "modalProduct": {
-        "contents": {
-          "img": false,
-          "imgWithCarousel": true,
-          "button": false,
-          "buttonWithQuantity": true
-        },
-        "styles": {
-          "product": {
-            "@media (min-width: 601px)": {
-              "max-width": "100%",
-              "margin-left": "0px",
-              "margin-bottom": "0px"
-            }
-          },
-          "button": {
-            "font-family": "Montserrat, sans-serif",
-            "font-weight": "bold",
-            ":hover": {
-              "background-color": "#e5da00"
-            },
-            "background-color": "#fef200",
-            ":focus": {
-              "background-color": "#e5da00"
-            }
-          }
-        },
-        "googleFonts": [
-          "Montserrat"
-        ],
-        "text": {
-          "button": "Add to cart"
-        }
-      },
-      "option": {
-        "styles": {
-          "label": {
-            "font-family": "Montserrat, sans-serif",
-            "font-weight": "bold"
-          },
-          "select": {
-            "font-family": "Montserrat, sans-serif",
-            "font-weight": "bold"
-          }
-        },
-        "googleFonts": [
-          "Montserrat"
-        ]
-      },
-      "cart": {
-        "styles": {
-          "button": {
-            "font-family": "Montserrat, sans-serif",
-            "font-weight": "bold",
-            ":hover": {
-              "background-color": "#e5da00"
-            },
-            "background-color": "#fef200",
-            ":focus": {
-              "background-color": "#e5da00"
-            }
-          }
-        },
-        "text": {
-          "total": "Subtotal",
-          "button": "Checkout"
-        },
-        "googleFonts": [
-          "Montserrat"
-        ]
-      },
-      "toggle": {
-        "styles": {
-          "toggle": {
-            "font-family": "Montserrat, sans-serif",
-            "font-weight": "bold",
-            "background-color": "#fef200",
-            ":hover": {
-              "background-color": "#e5da00"
-            },
-            ":focus": {
-              "background-color": "#e5da00"
-            }
-          }
-        },
-        "googleFonts": [
-          "Montserrat"
-        ]
-      }
-    },
+        function ShopifyBuyInit() {
+          var client = ShopifyBuy.buildClient({
+            domain: 'tuesday-knight-games.myshopify.com',
+            storefrontAccessToken: '51116ccb10e015d7ec184c666cadb5af',
           });
-        });
-      }
-    })();
-    /*]]>*/
-    </script>
-    <!-- /SHOPIFY -->
-
-    <div class="purchase">
-      <h3>—Buy Now:</h3>
-      <p><a href="https://shop.tuesdayknightgames.com/products/dissident-whispers?variant=31962853212249" tabindex="0" target="_blank">Physical</a> <a href="https://tuesdayknightgames.itch.io/dissident-whispers" tabindex="0" target="_blank">Itch.io</a> <a href="https://www.drivethrurpg.com/product/317424/Dissident-Whispers" tabindex="0" target="_blank">DriveThruRPG</a></p>
+          ShopifyBuy.UI.onReady(client).then(function (ui) {
+            ui.createComponent('product', {
+              id: '4659386908761',
+              node: document.getElementById('product-component-1592236163852'),
+              moneyFormat: '%24%7B%7Bamount%7D%7D',
+              options: {
+        "product": {
+          "styles": {
+            "product": {
+              "@media (min-width: 601px)": {
+                "max-width": "calc(25% - 20px)",
+                "margin-left": "20px",
+                "margin-bottom": "50px"
+              }
+            },
+            "title": {
+              "font-family": "Montserrat, sans-serif",
+              "color": "#fdfdfd"
+            },
+            "button": {
+              "font-family": "Montserrat, sans-serif",
+              "font-weight": "bold",
+              "color": "#000",
+              ":hover": {
+                "background-color": "#e5da00"
+              },
+              "background-color": "#fef200",
+              ":focus": {
+                "background-color": "#e5da00"
+              }
+            },
+            "price": {
+              "font-family": "Montserrat, sans-serif",
+              "font-weight": "bold",
+              "color": "#ffffff"
+            },
+            "compareAt": {
+              "font-family": "Montserrat, sans-serif",
+              "font-weight": "bold",
+              "color": "#ffffff"
+            },
+            "unitPrice": {
+              "font-family": "Montserrat, sans-serif",
+              "font-weight": "bold",
+              "color": "#ffffff"
+            }
+          },
+          "buttonDestination": "checkout",
+          "width": "580px",
+          "text": {
+            "button": "Buy now (US)"
+          },
+          "googleFonts": [
+            "Montserrat"
+          ]
+        },
+        "productSet": {
+          "styles": {
+            "products": {
+              "@media (min-width: 601px)": {
+                "margin-left": "-20px"
+              }
+            }
+          }
+        },
+        "modalProduct": {
+          "contents": {
+            "img": false,
+            "imgWithCarousel": true,
+            "button": false,
+            "buttonWithQuantity": true
+          },
+          "styles": {
+            "product": {
+              "@media (min-width: 601px)": {
+                "max-width": "100%",
+                "margin-left": "0px",
+                "margin-bottom": "0px"
+              }
+            },
+            "button": {
+              "font-family": "Montserrat, sans-serif",
+              "font-weight": "bold",
+              ":hover": {
+                "background-color": "#e5da00"
+              },
+              "background-color": "#fef200",
+              ":focus": {
+                "background-color": "#e5da00"
+              }
+            }
+          },
+          "googleFonts": [
+            "Montserrat"
+          ],
+          "text": {
+            "button": "Add to cart"
+          }
+        },
+        "option": {
+          "styles": {
+            "label": {
+              "font-family": "Montserrat, sans-serif",
+              "font-weight": "bold"
+            },
+            "select": {
+              "font-family": "Montserrat, sans-serif",
+              "font-weight": "bold"
+            }
+          },
+          "googleFonts": [
+            "Montserrat"
+          ]
+        },
+        "cart": {
+          "styles": {
+            "button": {
+              "font-family": "Montserrat, sans-serif",
+              "font-weight": "bold",
+              ":hover": {
+                "background-color": "#e5da00"
+              },
+              "background-color": "#fef200",
+              ":focus": {
+                "background-color": "#e5da00"
+              }
+            }
+          },
+          "text": {
+            "total": "Subtotal",
+            "button": "Checkout"
+          },
+          "googleFonts": [
+            "Montserrat"
+          ]
+        },
+        "toggle": {
+          "styles": {
+            "toggle": {
+              "font-family": "Montserrat, sans-serif",
+              "font-weight": "bold",
+              "background-color": "#fef200",
+              ":hover": {
+                "background-color": "#e5da00"
+              },
+              ":focus": {
+                "background-color": "#e5da00"
+              }
+            }
+          },
+          "googleFonts": [
+            "Montserrat"
+          ]
+        }
+      },
+            });
+          });
+        }
+      })();
+      /*]]>*/
+      </script>
+      <!-- /SHOPIFY -->
+      <p>—<br /><a href="https://shop.tuesdayknightgames.com/products/dissident-whispers?variant=31962853212249" tabindex="0" target="_blank">Physical</a> <a href="https://tuesdayknightgames.itch.io/dissident-whispers" tabindex="0" target="_blank">Itch.io</a> <a href="https://www.drivethrurpg.com/product/317424/Dissident-Whispers" tabindex="0" target="_blank">DriveThruRPG</a></p>
     </div>
     <div class="contact">
       <h3>—Reach Out:</h3>
