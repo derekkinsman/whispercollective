@@ -55,6 +55,7 @@ a:hover { color: #FFF; }
 }
 
   .intro,
+  .shopify,
   .purchase,
   .contact,
   .copyright {
@@ -68,6 +69,10 @@ a:hover { color: #FFF; }
   .intro {
     text-align: left;
     width: 75%;
+  }
+
+  .shopify {
+    padding-top: 0;
   }
 
   .purchase h3,
