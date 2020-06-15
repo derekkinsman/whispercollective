@@ -85,16 +85,6 @@ a:hover { color: #FFF; }
     margin: 0 30px;
   }
 
-  .purchase a:first-of-type,
-  .contact a:first-of-type {
-    margin-left: 0;
-  }
-
-  .purchase a:last-of-type,
-  .contact a:last-of-type {
-    margin-right: 0;
-  }
-
   .copyright {
     font-size: 2rem;
     margin-bottom: 40px;
@@ -115,6 +105,11 @@ a:hover { color: #FFF; }
   .purchase h3,
   .contact h3 {
     font-size: 1.25em;
+  }
+
+  .purchase a,
+  .contact a {
+    display: block;
   }
 
   .copyright {
