@@ -1,0 +1,95 @@
+@font-face {
+  font-family: Martin;
+  src: url('./assets/MARTIN-Regular.woff2') format("woff2"),
+      url('./assets/MARTIN-Regular.woff') format("woff");
+}
+
+html {
+  font-size: 18px;
+}
+
+body, div, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+  color: #FFF;
+  font-family: Martin;
+}
+
+a {
+  color: rgb(250, 234, 0);
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+a:hover { color: #FFF; }
+
+.masthead {
+  background-color: #FFF;
+  background-image: url('./assets/dissident-whispers-01.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%, -50%);
+  width: 42%;
+  max-width: 500px;
+}
+
+.body {
+  min-height: 100vh;
+  position: relative;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+  .intro,
+  .purchase,
+  .contact,
+  .copyright {
+    display: block;
+    font-size: 3rem;
+    margin: 0 auto;
+    padding: 80px 40px 0;
+    max-width: 1140px;
+  }
+
+  .intro {
+    text-align: left;
+    width: 75%;
+  }
+
+  .purchase h3,
+  .contact h3 {
+    font-size: 1.25em;
+  }
+
+  .purchase p,
+  .contact p {
+    margin-top: 20px;
+  }
+
+  .purchase a,
+  .contact a {
+    margin: 0 30px;
+  }
+
+  .copyright {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+
+    .copyright .heart {
+      margin: 0 10px;
+    }
