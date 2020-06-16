@@ -67,9 +67,23 @@ a:hover { color: #FFF; }
   }
 
   .intro {
+    display: flex;
+    flex-direction: row;
     text-align: left;
     width: 75%;
   }
+
+    .intro div {
+      margin: 0 20px;
+    }
+
+    .intro div:first-of-type {
+      margin-left: 0;
+    }
+
+    .intro div:last-of-type {
+      margin-right: 0;
+    }
 
   .shopify {
     padding-top: 0;
@@ -98,6 +112,16 @@ a:hover { color: #FFF; }
     .copyright .heart {
       margin: 0 10px;
     }
+
+@media only screen and (max-device-width : 1140px) {
+  .intro {
+    flex-direction: column;
+  }
+
+  .intro div {
+    margin: 0;
+  }
+}
 
 @media only screen and (max-device-width : 480px) {
   .intro,
