@@ -113,6 +113,30 @@ a:hover { color: #FFF; }
       margin: 0 10px;
     }
 
+  .affiliates {
+    background-color: #FFF;
+    text-align: center;
+    margin: 0 auto;
+    padding: 80px 20px;
+  }
+
+    .affiliates div {
+      margin: 0 auto;
+    }
+
+      .affiliates img {
+        height: 50px;
+        margin: 0 20px;
+      }
+
+      .affiliates img:first-of-type {
+        margin-left: 0;
+      }
+
+      .affiliates img:last-of-type {
+        margin-right: 0;
+      }
+
 @media only screen and (max-device-width : 1140px) {
   .intro {
     flex-direction: column;
